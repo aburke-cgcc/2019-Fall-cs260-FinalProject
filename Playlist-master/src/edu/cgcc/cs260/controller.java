@@ -46,8 +46,6 @@ public class controller {
                 switch(choose) {
                     case 1:
                     case 2:
-                    	
-                    	
                     case 3:
                     case 4:
                         //if there is a next song in the playlist, move forward to the next song
