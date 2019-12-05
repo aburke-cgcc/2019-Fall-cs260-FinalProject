@@ -7,10 +7,10 @@ import java.util.Iterator;
 import java.util.ListIterator;
 
 
-public class playPlaylist {
+public class controller {
         //members
 
-        public static void play(LinkedList<Song> playlist) {
+        public static void playlistTraversal(LinkedList<Song> playlist) {
             Scanner UI = new Scanner(System.in);
             printOptions menu = new printOptions();
             boolean forward = true;
