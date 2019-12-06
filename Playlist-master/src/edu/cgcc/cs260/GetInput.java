@@ -1,3 +1,8 @@
+/**
+ * Receives input and compares it to a range of
+ * acceptable conditions.
+ * @author Isaak Henry
+ */
 package edu.cgcc.cs260;
             import java.util.ArrayList;
             import java.util.List;
@@ -5,8 +10,8 @@ package edu.cgcc.cs260;
             import java.util.regex.Matcher;
             import java.util.regex.Pattern;
 
-public class validateData {
-    public validateData(String){
+public class GetInput {
+    public GetInput(String){
         int length = 0;
         enforceAlphanum enforce = new enforceAlphanum();
         if(length <= 16 && enforce;)
