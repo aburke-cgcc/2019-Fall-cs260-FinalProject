@@ -1,6 +1,10 @@
+/**
+ * Prints out the menu of the playlist
+ * @author Isaak Henry
+ */
 package edu.cgcc.cs260;
 
-public class printOptions {
+public class Menu {
     public static void printMenu() {
         System.out.println("Available actions: \npress");
         System.out.println("1 to Play Playlist \n" +
